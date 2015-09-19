@@ -1,0 +1,57 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Snapshat</string>
+
+    <string name="title_section1">Inbox</string>
+    <string name="title_section2">Friends</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="logout_label">Logout</string>
+    <string name="title_activity_login">Login</string>
+    <string name="user_name_hint">Username</string>
+    <string name="password_field">Password</string>
+    <string name="login_label">SIGN IN</string>
+    <string name="sign_up_text">Sign up</string>
+    <string name="cancel_button_label">CANCEL</string>
+    <string name="title_activity_sign_up">Don\'t have an account? Sign Up!</string>
+    <string name="email_prompt">Email address</string>
+    <string name="signup_button_label">SIGN UP!</string>
+    <string name="signup_error_message">Please enter a valid username, password, and email address.</string>
+    <string name="signup_error_title">Oopsies...</string>
+    <string name="login_error_message">Wrong username and password combination. Please try again.</string>
+    <string name="action_settings">Settings</string>
+    <string name="forgot_password_text">Forgot password?</string>
+    <string name="forgot_password_prompt">Enter your email to reset! </string>
+    <string name="forgot_password_button">Send reset link</string>
+    <string name="forgot_password_error">Your email could not be found. Please enter a new one.</string>
+    <string name="forgot_password_title">Invalid Email</string>
+    <string name="forgot_empty_error">You have to enter an email to reset your password.</string>
+    <string name="title_forgot_password">Forgot Password</string>
+    <string name="reset_success_title">Reset link sent!</string>
+    <string name="resest_success_message">Please check your email for the link to reset your password.</string>
+    <string name="messages_empty_list">No new messages</string>
+    <string name="friends_empty_list">You have no friends... Add some to share pictures!</string>
+    <string name="edit_friends_label">Edit Friends</string>
+    <string name="title_activity_edit_friends">Edit Friends</string>
+    <string name="edit_friends_empty_list_text">There is nobody to add...</string>
+    <string-array name="camera_choices">
+        <item>Take Picture</item>
+        <item>Take Video</item>
+        <item>Choose Photo</item>
+        <item>Choose Video</item>
+    </string-array>
+    <string name="external_storage_error">There was an error accessing your external storage.</string>
+    <string name="camera_general_error">Sorry. There was an error!</string>
+    <string name="video_file_size_warning">"The video you choose must be less than 10 MB (go for 10 seconds or less)!"</string>
+    <string name="file_not_found_error">There was a problem with the selected file.</string>
+    <string name="file_too_big_warning">Told you it had to be less than 10 MB... Please select a new file.</string>
+    <string name="title_activity_choose_recipients">Choose Recipients</string>
+    <string name="empty_recipients_label">You have no friends to send pictures to... Add some now!</string>
+    <string name="error_selecting_file">There was an error with the file selected. Please select a different file :].</string>
+    <string name="error_selecting_file_title">We\'re sorry! :-(</string>
+    <string name="success_message">Your message was sent!</string>
+    <string name="error_sending_message">There was an error in sending your message...</string>
+    <string name="title_activity_view_image">Snapshat</string>
+    <string name="push_message">You have a new Snapshat message from %s!</string>
+
+</resources>

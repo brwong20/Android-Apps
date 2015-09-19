@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.example.brwong.snapshat.Activities.SignUpActivity"
+                style="@style/PurpleBackgroundFill">
+    <ImageView
+        android:id="@+id/signUpBackGround"
+        style="@style/PurpleBackground"/>
+
+    <TextView
+        android:id="@+id/sign_up_title"
+        style="@style/AppTitle"/>
+
+    <LinearLayout
+        android:id="@+id/signUpBox"
+        style="@style/LinearLayoutBox"
+        android:layout_below="@+id/sign_up_title">
+        <EditText
+            android:id="@+id/user_name_prompt"
+            android:hint="@string/user_name_hint"
+            style="@style/InputEditText">
+            <requestFocus></requestFocus>
+        </EditText>
+
+        <EditText
+            android:id="@+id/password_prompt"
+            style="@style/InputEditText"
+            android:hint="@string/password_field"
+            android:layout_below="@+id/user_name_prompt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:inputType="textPassword"/>
+
+
+
+        <EditText
+            style="@style/InputEditText"
+            android:id="@+id/email_prompt"
+            android:layout_below="@+id/password_prompt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="@string/email_prompt"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/button_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signUpBox"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/button_divider"/>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_below="@+id/signUpBox"
+        style="@style/ButtonFormatStyle"
+        android:text="@string/signup_button_label"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/button_divider"
+        android:layout_marginRight="0dp"/>
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_below="@+id/signUpBox"
+        style="@style/ButtonFormatStyle"
+        android:text="@string/cancel_button_label"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/button_divider"
+        android:layout_marginLeft="0dp"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_progress"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>
