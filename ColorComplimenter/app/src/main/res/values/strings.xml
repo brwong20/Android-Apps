@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Color Complimenter</string>
+
+    <string name="color_prompt">Enter your favorite color!</string>
+    <string name="action_settings">Settings</string>
+    <string name="red_compliment">Your red lipstick is beautiful.</string>
+    <string name="color_key">FavColor</string>
+</resources>
